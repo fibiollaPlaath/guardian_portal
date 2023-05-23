@@ -24,6 +24,14 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.example.guardian_portal.screens.home.HomeFragment"
-        android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_academicRecordFragment"
+            app:destination="@id/academicRecordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/academicRecordFragment"
+        android:name="com.example.guardian_portal.screens.home.AcademicRecordFragment"
+        android:label="fragment_academic_record"
+        tools:layout="@layout/fragment_academic_record" />
 </navigation>

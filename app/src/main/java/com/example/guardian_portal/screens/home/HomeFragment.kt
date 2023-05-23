@@ -5,11 +5,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.navigation.fragment.findNavController
 import com.example.guardian_portal.R
 import com.example.guardian_portal.databinding.FragmentHomeBinding
-import com.example.guardian_portal.databinding.FragmentLoginBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
@@ -41,6 +39,10 @@ class HomeFragment : Fragment() {
 
             textViewLogout.setOnClickListener {
                 logOutUser()
+            }
+
+            buttonAcademicRecord.setOnClickListener {
+                findNavController().navigate(R.id.action_homeFragment_to_academicRecordFragment)
             }
 
         }
