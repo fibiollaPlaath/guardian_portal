@@ -24,7 +24,7 @@
         android:layout_marginStart="16dp"
         android:fontFamily="sans-serif-medium"
         app:layout_constraintStart_toStartOf="parent"
-        android:text="Module"
+        android:text="AI"
         android:textColor="@color/black"
         app:layout_constraintTop_toBottomOf="@+id/textView_module"/>
 
@@ -49,7 +49,7 @@
         android:layout_gravity="center"
         android:layout_marginStart="16dp"
         android:fontFamily="sans-serif-medium"
-        android:text="Final Marks"
+        android:text="70%"
         android:textColor="@color/black"
         app:layout_constraintEnd_toStartOf="@+id/textView_results_result"
         app:layout_constraintHorizontal_bias="1.0"
@@ -79,7 +79,7 @@
         android:layout_gravity="center"
         android:layout_marginStart="16dp"
         android:fontFamily="sans-serif-medium"
-        android:text="Results"
+        android:text="PASS"
         android:layout_marginEnd="16dp"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
