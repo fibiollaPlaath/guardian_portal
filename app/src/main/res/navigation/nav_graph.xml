@@ -8,7 +8,6 @@
     <fragment
         android:id="@+id/FirstFragment"
         android:name="com.example.guardian_portal.screens.WelcomeFragment"
-        android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_welcome">
         <action
             android:id="@+id/action_FirstFragment_to_LoginFragment"
@@ -17,7 +16,6 @@
     <fragment
         android:id="@+id/LoginFragment"
         android:name="com.example.guardian_portal.screens.authentication.LoginFragment"
-        android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_login">
         <action
             android:id="@+id/action_LoginFragment_to_homeFragment"
