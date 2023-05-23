@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1029165535063",
+    "project_id": "guardian-portal-35f50",
+    "storage_bucket": "guardian-portal-35f50.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029165535063:android:c267b8cb6e3a4c7767f812",
+        "android_client_info": {
+          "package_name": "com.example.guardian_portal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1029165535063-0g2u0e3l86pipov2v2tv5brkr3getfv2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUU44YRdYVf6zk0Y66y-4-PYBCYZ_obGc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1029165535063-0g2u0e3l86pipov2v2tv5brkr3getfv2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
